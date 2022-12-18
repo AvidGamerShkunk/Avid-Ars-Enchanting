@@ -1,0 +1,20 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/AvidGamerShkunk/Avid-Uncrafting/issues"
+
+[[mods]]
+modId = "avid_ars_enchanting"
+version = "0.1.0"
+displayName = "Avid Ars Enchanting"
+displayURL = "https://github.com/AvidGamerShkunk/Avid-Uncrafting"
+authors = "AvidGamerShkunk"
+description = '''Uncraft amethyst block, quartz block in crafting table.'''
+# yo dawg, triple single quotes (here) will allow it to span mulitple lines, so you can press enter in there, and it won't break anything
+
+[[dependencies.debugbook]]
+modId = "forge"
+mandatory = true
+versionRange = "[43.2.0,)"
+ordering = "NONE"
+side = "BOTH"
